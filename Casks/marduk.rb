@@ -1,6 +1,6 @@
 cask "marduk" do
-  version "0.3.4"
-  sha256 "cc276ce23c3f6faf401cc940400dbf144dbae298f52a38981dee065a8bbf3ef8"
+  version "0.3.5"
+  sha256 "e05c93b676241c9a79bedbcc1584b631727b00f608bf0016e7e7ed4b4cebfc20"
 
   url "https://github.com/spencer-dollahite/marduk/releases/download/v#{version}/Marduk.dmg"
   name "Marduk"
