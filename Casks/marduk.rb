@@ -1,6 +1,10 @@
 cask "marduk" do
-  version "0.3.7"
-  sha256 "5be521005d476b510ff2fc52af2b3872ab49cb65b07fcbee16b28990abfe095c"
+  version "0.3.8"
+  sha256 "aa83b4edbd1664cc499722bae57dcb7eb01df7f3ea08b41bc6de488054eb4219"
+
+  # Marduk self-updates (u/uu and the periodic timer swap the bundle in
+  # place) — Chrome-style: brew leaves the version alone unless --greedy
+  auto_updates true
 
   url "https://github.com/spencer-dollahite/marduk/releases/download/v#{version}/Marduk.dmg"
   name "Marduk"
