@@ -1,6 +1,6 @@
 cask "marduk" do
-  version "0.4.16"
-  sha256 "213b9e71f4da6e7e5a831527f7e8e1d58103c11b1c029ac481f7accb51164627"
+  version "0.4.18"
+  sha256 "ff21d8788b42e5eff08308d1280b7cb6667d112157789859b2e6984081116eb5"
 
   # Marduk self-updates (u/uu and the periodic timer swap the bundle in
   # place) — Chrome-style: brew leaves the version alone unless --greedy
